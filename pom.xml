@@ -5,6 +5,15 @@
   <artifactId>hello-world-app</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
+   <configuration>
+        <archive>
+          <manifest>
+            <addClasspath>true</addClasspath>
+            <classpathPrefix>lib/</classpathPrefix>
+            <mainClass>com.formation.devops.App</mainClass>
+          </manifest>
+        </archive>
+      </configuration>
   <name>hello-world-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
